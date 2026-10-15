@@ -1,0 +1,45 @@
+header {
+    background-color: #ffffff;
+    width: 100%;
+    height:50px;
+}
+
+body {
+    background-color: #c4c4c4;
+}
+
+footer {
+    background-color: #ffffff;
+    width: 100%;
+    height: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.card{
+    width: fit-content;
+    background-color: #ffffff;
+    padding: 2px;
+}
+
+.card__title {
+    color: #282828;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.card__description {
+    color: #282828;
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+.card__img-top {
+    width: 50vw;
+    height: auto;
+    margin-bottom: 10px;
+}
